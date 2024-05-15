@@ -1,7 +1,8 @@
 import './App.css';
 // import Home from './Components/Home';
 import Navbar from './Components/Navbar';
-// import Create from './Components/Create';
+import Create from './Components/Create';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 function App() {
   return (
@@ -10,14 +11,13 @@ function App() {
     <Navbar/>
     <div className='content'>
       <Switch>
-      {/* <Route exact path="/">
+       {/* <Route exact path="/">
         <Home/>
-      </Route>
+      </Route>  */}
 
       <Route path="/Create">
       <Create/>
-      </Route> */}
-      
+      </Route> 
       </Switch>
     </div>
     </div>

@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+          "title": "Android Development",
+          "author": "Mary Doe",
+          "body": "Contrary to popular belief, Lorem Ipsum is not simply random text",
+          "id": "6"
+        },
+        {
+            "title": "Web Development",
+            "author": "Mary Doe",
+            "body": "It is a long established fact that a reader ",
+            "id": "7"
+        }
+    ]
+}
