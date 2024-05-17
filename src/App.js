@@ -1,5 +1,5 @@
 import './App.css';
-// import Home from './Components/Home';
+ import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Create from './Components/Create';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,9 +11,9 @@ function App() {
     <Navbar/>
     <div className='content'>
       <Switch>
-       {/* <Route exact path="/">
+       <Route exact path="/">
         <Home/>
-      </Route>  */}
+      </Route>
 
       <Route path="/Create">
       <Create/>
